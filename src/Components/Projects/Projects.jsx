@@ -5,9 +5,10 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { IoIosLink } from "react-icons/io";
 import P1 from "../../assets/Projects/PlantKeeper/P1.png";
 import J1 from "../../assets/Projects/J1.png";
+import { Link } from "react-router";
 const Projects = () => {
   return (
-    <div>
+    <div id="projects" className="bg-white lg:pt-5 pb-14 rounded-4xl shadow-xl p-4">
       {/* title */}
       <div className="flex items-center justify-center gap-2 mb-8 mt-4">
         <GoProjectSymlink className="text-3xl text-primary" />
@@ -17,7 +18,7 @@ const Projects = () => {
       {/* Projects Card */}
       <div>
         {/* Project 1 */}
-        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-lg max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10">
+        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-5 border border-blue-100">
           {/* Banner Image Section */}
           <section className="md:w-1/2 bg-blue-50 p-6 flex items-center justify-center">
             <div className="rounded-2xl">
@@ -86,19 +87,19 @@ const Projects = () => {
                 <FaGithub />
                 Server
               </a>
-              <a
-                href=""
+              <Link
+                to={'/projects/ratewise'}
                 className="text-sm text-primary   font-medium transition btn btn-soft btn-secondary hover:text-white"
               >
                 <FaExternalLinkAlt />
-                Explore
-              </a>
+                Details
+              </Link>
             </div>
           </section>
         </div>
 
         {/* Project 2 */}
-        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-lg max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10">
+        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10 border border-green-100">
           {/* Banner Image Section */}
           <section className="md:w-1/2 bg-green-50 p-6 flex items-center justify-center">
             <div className="rounded-2xl">
@@ -167,19 +168,19 @@ const Projects = () => {
                 <FaGithub />
                 Server
               </a>
-              <a
-                href=""
+              <Link
+                to={'/projects/plantKeeper'}
                 className="text-sm text-primary   font-medium transition btn btn-soft btn-secondary hover:text-white"
               >
                 <FaExternalLinkAlt />
-                Explore
-              </a>
+                Details
+              </Link>
             </div>
           </section>
         </div>
 
         {/* Project 3 */}
-        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-lg max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10">
+        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10 border border-blue-100">
           {/* Banner Image Section */}
           <section className="md:w-1/2 bg-blue-200 p-6 flex items-center justify-center">
             <div className="rounded-2xl">
@@ -240,13 +241,13 @@ const Projects = () => {
                 Client
               </a>
 
-              <a
-                href=""
+              <Link
+                to={'/projects/jobNest'}
                 className="text-sm text-primary   font-medium transition btn btn-soft btn-secondary hover:text-white"
               >
                 <FaExternalLinkAlt />
-                Explore
-              </a>
+                Details
+              </Link>
             </div>
           </section>
         </div>

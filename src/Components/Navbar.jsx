@@ -1,13 +1,15 @@
 import React from "react";
 import { Link, Links, NavLink } from "react-router";
-import logo from '../assets/logo.png';
+import logo from "../assets/logo.png";
 import { IoMdDownload } from "react-icons/io";
 const Navbar = () => {
-
-    const links = <>
-        <NavLink to={'/'}>Home</NavLink>
-        <NavLink to={'/'}>Projects</NavLink>
+  const links = (
+    <>
+      <NavLink to={'/'}>Home</NavLink>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </>
+  );
   return (
     <div className="bg-primary sticky top-0 z-20">
       <div className="navbar max-w-7xl mx-auto">
@@ -20,26 +22,25 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-             {/* //modile */}
-             {
-                links
-             }
+              {/* //modile */}
+              {links}
             </ul>
           </div>
-          <Link to={'/'}>
-            <img src={logo} alt="" className="w-10"/>
+          <Link to={"/"}>
+            <img src={logo} alt="" className="w-10" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 flex gap-10 text-white text-lg">
-           {/* Desktop */}
-           {
-            links
-           }
+            {/* Desktop */}
+            {links}
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-soft"><IoMdDownload className="text-xl"/>Get Resume</a>
+          <a className="btn btn-soft">
+            <IoMdDownload className="text-xl" />
+            Get Resume
+          </a>
         </div>
       </div>
     </div>

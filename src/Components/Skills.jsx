@@ -36,9 +36,9 @@ const Skills = () => {
     <section id="skills" className="py-16 px-4 mt-40 lg:mt-20">
       <div className="max-w-5xl mx-auto text-center">
         {/* Header */}
-        <div className="flex items-center justify-center gap-2 mb-8">
+        <div className="flex items-center justify-center gap-2 mb-8 mt-10 md:mt-0">
           <FaCode className="text-3xl text-primary" />
-          <h2 className="text-3xl font-bold text-primary">My Core Skills</h2>
+          <h2 className="text-3xl font-bold text-primary">Skills</h2>
         </div>
 
         {/* Skills Grid */}

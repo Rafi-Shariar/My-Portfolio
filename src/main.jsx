@@ -8,13 +8,19 @@ import {
 } from "react-router";
 import MainLayout from './Layouts/MainLayout.jsx';
 import HomePage from './Pages/HomePage.jsx';
+import RateWise from './Components/Projects/RateWise.jsx';
+import PlantKeeper from './Components/Projects/PlantKeeper.jsx';
+import JobNest from './Components/Projects/JobNest.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
     children:[
-      { index:true, element:<HomePage></HomePage>}
+      { index:true, element:<HomePage></HomePage>},
+      { path:'projects/ratewise', element:<RateWise></RateWise>},
+      { path:'projects/plantKeeper', element:<PlantKeeper></PlantKeeper>},
+      { path:'projects/JobNest', element:<JobNest></JobNest>}
     ]
   },
 ]);
