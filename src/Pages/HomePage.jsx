@@ -4,6 +4,8 @@ import AboutMe from '../Components/AboutMe';
 import Skills from '../Components/Skills';
 import Contact from '../Components/Contact';
 import Projects from '../Components/Projects/Projects';
+import Education from '../Components/Education';
+import LetsConnect from '../Components/LetsConnect';
 
 const HomePage = () => {
     return (
@@ -12,6 +14,9 @@ const HomePage = () => {
             <AboutMe></AboutMe>
             <Skills></Skills>
             <Projects></Projects>
+            <Education></Education>
+            <LetsConnect></LetsConnect>
+            
         </div>
     );
 };

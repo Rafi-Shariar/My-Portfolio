@@ -12,7 +12,7 @@ const Contact = () => {
       .sendForm('service_3edebrv', 'template_29t1rue', form.current, 'Km4_jCxq-cyIFEMjD')
       .then(
         () => {
-          alert('Message sent successfully!');
+          alert('Email sent successfully!');
           form.current.reset();
         },
         () => {
@@ -73,7 +73,7 @@ const Contact = () => {
 
   <button
     type="submit"
-    className="w-full bg-[#129990] hover:bg-[#096B68] hover:text-white text-white font-medium py-2.5 rounded-md hover:text-white' transition duration-300"
+    className="w-full bg-primary hover:bg-secondary hover:text-white text-white font-medium py-2.5 rounded-md hover:text-white' transition duration-300"
   >
     Send Message
   </button>
