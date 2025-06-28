@@ -33,10 +33,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-16 px-4 mt-40 md:mt-24 lg:mt-20">
+    <section id="skills" className="">
       <div className="max-w-5xl mx-auto text-center">
         {/* Header */}
-        <div className="flex items-center justify-center gap-2 mb-8 mt-40 md:mt-0">
+        <div className="flex items-center justify-center gap-2 mb-8 mt-14">
           <FaCode className="text-3xl text-primary" />
           <h2 className="text-3xl font-bold text-primary">Skills</h2>
         </div>

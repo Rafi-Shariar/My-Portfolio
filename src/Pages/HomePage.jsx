@@ -9,10 +9,14 @@ import LetsConnect from '../Components/LetsConnect';
 
 const HomePage = () => {
     return (
-        <div className='p-2'>
+        <div className='p-3'>
             <Banner></Banner>
-            <AboutMe></AboutMe>
-            <Skills></Skills>
+            <section>
+                <AboutMe></AboutMe>
+            </section>
+            <section className=''>
+                <Skills></Skills>
+            </section>
             <Projects></Projects>
             <Education></Education>
             <LetsConnect></LetsConnect>
