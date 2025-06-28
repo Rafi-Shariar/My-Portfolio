@@ -11,6 +11,9 @@ import HomePage from './Pages/HomePage.jsx';
 import RateWise from './Components/Projects/RateWise.jsx';
 import PlantKeeper from './Components/Projects/PlantKeeper.jsx';
 import JobNest from './Components/Projects/JobNest.jsx';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +27,8 @@ const router = createBrowserRouter([
     ]
   },
 ]);
+
+Aos.init();
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}></RouterProvider>

@@ -27,7 +27,7 @@ const Education = () => {
           <div className="flex items-center justify-center gap-2 my-8">
               <IoBookSharp className="text-3xl text-primary" />
               <h2 className="text-3xl font-bold text-primary">
-                Educationa
+                Education
               </h2>
             </div>
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3">

@@ -18,7 +18,8 @@ const Projects = () => {
       {/* Projects Card */}
       <div>
         {/* Project 1 */}
-        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-5 border border-blue-100">
+        <div data-aos="fade-up"
+     data-aos-duration="1000" className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-5 border border-blue-100">
           {/* Banner Image Section */}
           <section className="md:w-1/2 bg-blue-50 p-6 flex items-center justify-center">
             <div className="rounded-2xl">
@@ -99,7 +100,8 @@ const Projects = () => {
         </div>
 
         {/* Project 2 */}
-        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10 border border-green-100">
+        <div data-aos="fade-up"
+     data-aos-duration="1000" className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10 border border-green-100">
           {/* Banner Image Section */}
           <section className="md:w-1/2 bg-green-50 p-6 flex items-center justify-center">
             <div className="rounded-2xl">
@@ -180,7 +182,8 @@ const Projects = () => {
         </div>
 
         {/* Project 3 */}
-        <div className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10 border border-blue-100">
+        <div data-aos="fade-up"
+     data-aos-duration="1000" className="flex flex-col md:flex-row bg-white rounded-3xl shadow-xl max-w-5xl mx-auto overflow-hidden transition hover:shadow-xl mt-10 border border-blue-100">
           {/* Banner Image Section */}
           <section className="md:w-1/2 bg-blue-200 p-6 flex items-center justify-center">
             <div className="rounded-2xl">

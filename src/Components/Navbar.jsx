@@ -29,6 +29,7 @@ const Navbar = () => {
           <Link to={"/"}>
             <img src={logo} alt="" className="w-10" />
           </Link>
+          <h1 className="hidden md:inline text-white font-semibold text-2xl ml-3">Rafi Shariar</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 flex gap-10 text-white text-lg">

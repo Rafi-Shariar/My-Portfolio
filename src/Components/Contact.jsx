@@ -22,7 +22,8 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="max-w-xl mx-auto p-6 bg-white shadow rounded-xl">
+    <div data-aos="fade-left" data-aos-duration="2000"
+      id="contact" className="max-w-xl mx-auto p-6 bg-white shadow rounded-xl">
       <h2 className="text-3xl mb-4">Massage Me</h2>
       <form
   ref={form}
