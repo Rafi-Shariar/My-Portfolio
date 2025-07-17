@@ -3,7 +3,7 @@ import { SparklesPreview } from '../Skills/SparklesPreview';
 
 const ContactContainer = () => {
     return (
-        <div>
+        <div id='contact'>
             <SparklesPreview></SparklesPreview>
             
         </div>

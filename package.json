@@ -15,6 +15,7 @@
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
+    "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "emailjs": "^4.0.3",
     "lucide-react": "^0.525.0",

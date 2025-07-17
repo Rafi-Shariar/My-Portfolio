@@ -5,8 +5,8 @@ import RateWiseCard from './RateWiseCard';
 import PlantKeeperCard from './PlantKeeperCard';
 const ProjectsContainer = () => {
     return (
-        <div className='max-w-7xl mx-auto mt-16 bg-[#16161a] rounded-3xl'>
-            <div className='flex justify-center mb-6'>
+        <div id='projects' className='max-w-7xl mx-auto mt-16 bg-[#16161a] rounded-3xl'>
+            <div className='flex justify-center'>
                 <ShinyText
               text="Projects"
               disabled={false}
@@ -15,7 +15,7 @@ const ProjectsContainer = () => {
             />
             </div>
 
-            <div className='pb-6'>
+            <div className='p-2 pb-6'>
                 <RateWiseCard></RateWiseCard>
                 <PlantKeeperCard></PlantKeeperCard>
             </div>

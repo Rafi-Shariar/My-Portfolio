@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "./../../assets/logo/logo.png";
 import { Button } from "../ui/Button";
+import { NavLink } from "react-router";
 const Navbar = () => {
   const links = (
     <>
-      <li>Home</li>
-      <li>Projects</li>
-      <li>Contact</li>
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </>
   );
   return (
@@ -53,12 +55,14 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Button
+          <a href="https://drive.google.com/file/d/1owwO2wjGFh09PZDYBGu0se52eDlVt9cJ/view" target="_blank">
+            <Button
             borderRadius="1.75rem"
             className="text-slate-100 text-base font-semibold border-slate-800 hover:cursor-pointer"
           >
             Get Resume
           </Button>
+          </a>
         </div>
       </div>
     </div>

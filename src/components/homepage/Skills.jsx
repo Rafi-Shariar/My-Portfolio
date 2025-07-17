@@ -3,7 +3,7 @@ import ShinyText from '../ui/ShinyText';
 import SkillsContainer from '../Skills/SkillsContainer';
 const Skills = () => {
     return (
-        <div className='max-w-7xl mx-auto mt-16'>
+        <div id='skills' className='max-w-7xl mx-auto mt-16'>
             <div className='flex justify-center mb-6'>
                 <ShinyText
               text="Skills"

@@ -13,12 +13,6 @@
   --color-base-300: #16161a;
 }
 
-.active{
-
-  text-decoration: underline;
-  color: oklch(79.5% 0.184 86.047);
-}
-
 *{font-family: "Poppins", sans-serif;}
 
 @theme inline {
@@ -33,4 +27,9 @@
     opacity: 1;
     transform: translate(-50%, -40%) scale(1);
   }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }

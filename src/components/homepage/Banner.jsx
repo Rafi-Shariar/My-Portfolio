@@ -3,7 +3,7 @@ import BannerContent from '../banner/BannerContent';
 
 const Banner = () => {
     return (
-        <div className='max-w-7xl mx-auto mt-6'>
+        <div id='home' className='max-w-7xl mx-auto mt-6'>
             <div className=''>
 
                 {/* Contain */}
