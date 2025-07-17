@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-background : #16161a;
+  --color-primary: #7f5af0;
+  --color-secondary: #A4CCD9;
+  --color-base-100: #fffffe;
+  --color-base-200: #94a1b2;
+  --color-base-300: #16161a;
+}
+
+.active{
+
+  text-decoration: underline;
+  color: oklch(79.5% 0.184 86.047);
+}
+
+*{font-family: "Poppins", sans-serif;}
+
+@theme inline {
+  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+}
+@keyframes spotlight {
+  0% {
+    opacity: 0;
+    transform: translate(-72%, -62%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
