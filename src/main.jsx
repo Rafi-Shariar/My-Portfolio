@@ -10,6 +10,7 @@ import RateWisePage from './pages/RateWisePage.jsx';
 import PlantKeeperPage from './pages/PlantKeeperPage.jsx';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
+import WedlynPage from './pages/WedlynPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/PlateKeeper',
     element:<PlantKeeperPage></PlantKeeperPage>
+  },
+  {
+    path:'/Wedlyn',
+    element:<WedlynPage></WedlynPage>
   }
 ]);
 

@@ -11,7 +11,7 @@ export function SparklesPreview() {
 something beautiful today."
         disabled={false}
         speed={2.5}
-        className="text-4xl md:text-5xl font-bold mt-20"
+        className="text-4xl md:text-5xl font-bold mt-20 text-center"
       />
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}

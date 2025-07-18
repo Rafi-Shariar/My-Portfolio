@@ -43,7 +43,7 @@ const Navbar = () => {
 
           <div className="flex items-center">
             <img src={logo} alt="" className="w-12 bg-white rounded-full" />
-            <a className="btn btn-ghost text-2xl hidden md:inline">
+            <a className="text-3xl hidden md:inline ml-2 font-semibold">
               Rafi <span className="font-light">Shariar</span>
             </a>
           </div>

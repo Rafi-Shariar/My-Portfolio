@@ -18,9 +18,8 @@ const HomePage = () => {
             <Skills></Skills>
             <ProjectsContainer></ProjectsContainer>
             <Education></Education>
-            <ContactContainer></ContactContainer>
             <LetsConnect></LetsConnect>
-            <Footer></Footer>
+             <ContactContainer></ContactContainer>
             
         </div>
     );

@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 const LetsConnect = () => {
   return (
-    <div className="px-4 py-12 max-w-6xl mx-auto  lg:p-10 rounded-3xl mb-14">
+    <div id='contact' className="px-4  max-w-6xl mx-auto  lg:p-10 rounded-3xl mt-16">
       <div className="flex flex-col-reverse md:flex-row gap-10 items-center md:items-center">
         {/* Social Contact - left on desktop, bottom on mobile */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
