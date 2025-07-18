@@ -8,6 +8,7 @@ import Education from '../components/homepage/Education';
 import LetsConnect from '../components/homepage/LetsConnect';
 import ContactContainer from '../components/homepage/ContactContainer';
 import Footer from '../components/homepage/Footer';
+import ProblemSolving from '../components/homepage/ProblemSolving';
 
 const HomePage = () => {
     return (
@@ -18,6 +19,7 @@ const HomePage = () => {
             <Skills></Skills>
             <ProjectsContainer></ProjectsContainer>
             <Education></Education>
+            <ProblemSolving></ProblemSolving>
             <LetsConnect></LetsConnect>
              <ContactContainer></ContactContainer>
             

@@ -1,122 +1,57 @@
 import React from "react";
-import ForntEndSkills from "./ForntEndSkills";
 import point from "../../assets/Skills/git-commit-vertical.png";
-import Aurora from "../ui/Aurora";
+
+const skillsData = [
+  {
+    title: "Frontend",
+    items: ["HTML", "CSS", "Tailwind CSS", "React", "JavaScript"],
+  },
+  {
+    title: "Backend",
+    items: ["Node.js", "Express.js", "Firebase", "JWT", "REST API"],
+  },
+  {
+    title: "Databases",
+    items: ["MongoDB", "MySQL"],
+  },
+  {
+    title: "Tools",
+    items: ["Git", "Axios", "Vercel"],
+  },
+  {
+    title: "Others",
+    items: ["C++", "Data Structures", "Algorithms", "OOP", "Problem Solving"],
+  },
+];
 
 const SkillsContainer = () => {
   return (
-    <div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mt-3 gap-6">
-   
-        <div className="">
-          <h1 className="text-xl font-semibold text-gray-400">FORNT END</h1>
-          <ul className="flex flex-col gap-2 mt-3"></ul>
-          <ul className="flex flex-col gap-2 mt-3">
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              HTML
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              CSS
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Tailwind CSS
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              React
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              JavaScript
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h1 className="text-xl font-semibold text-gray-400">BACK END</h1>
-          <ul className="flex flex-col gap-2 mt-3">
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Node.js
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Express.js
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Firebase
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              JWT
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              REST API
-            </li>
-            
-          </ul>
-        </div>
-
-         <div>
-          <h1 className="text-xl font-semibold text-gray-400">DATABASES</h1>
-          <ul className="flex flex-col gap-2 mt-3">
-           
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              MongoDB
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              MySQL
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h1 className="text-xl font-semibold text-gray-400">TOOLS</h1>
-          <ul className="flex flex-col gap-2 mt-3">
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Git
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Axios
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Vercel
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h1 className="text-xl font-semibold text-gray-400">OTHERS</h1>
-          <ul className="flex flex-col gap-2 mt-3 ">
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              C++
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Data Structures
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              Algorithms
-            </li>
-            <li className="flex items-center text-lg">
-              <img src={point} alt="" className="h-8" />
-              OOP
-            </li>
-          </ul>
-        </div>
+    <div className="py-10 px-5">
+      <h2 className="text-3xl font-bold text-center text-white mb-10">
+        Technical Skills
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        {skillsData.map((section) => (
+          <div
+            key={section.title}
+            className="bg-[#16161a] rounded-2xl p-6 shadow-md hover:shadow-lg transition-all border border-gray-700"
+          >
+            <h3 className="text-xl font-semibold text-sky-700 mb-4 border-b border-gray-600 pb-2">
+              {section.title}
+            </h3>
+            <ul className="space-y-3">
+              {section.items.map((skill) => (
+                <li
+                  key={skill}
+                  className="flex items-center gap-2 text-base text-gray-300"
+                >
+                  <img src={point} alt="•" className="h-5" />
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );
