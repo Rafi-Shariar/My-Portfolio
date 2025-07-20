@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./../../assets/logo/logo.png";
 import { Button } from "../ui/Button";
 import { NavLink } from "react-router";
+import { IoMdDownload } from "react-icons/io";
 const Navbar = () => {
   const links = (
     <>
@@ -35,7 +36,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-slate-800 rounded-box z-1 mt-3 w-52 p-4 shadow space-y-6"
             >
               {links}
             </ul>
@@ -58,9 +59,9 @@ const Navbar = () => {
           <a href="https://drive.google.com/file/d/1owwO2wjGFh09PZDYBGu0se52eDlVt9cJ/view" target="_blank">
             <Button
             borderRadius="1.75rem"
-            className="text-slate-100 text-base font-semibold border-slate-800 hover:cursor-pointer"
+            className="text-slate-100 text-base font-semibold border-slate-700 hover:cursor-pointer"
           >
-            Get Resume
+            <IoMdDownload /> <span className="ml-2">Get Resume</span>
           </Button>
           </a>
         </div>

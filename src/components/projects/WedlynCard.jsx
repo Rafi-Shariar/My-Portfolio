@@ -7,9 +7,9 @@ import { IoIosLink } from "react-icons/io";
 const WedlynCard = () => {
   return (
     <div data-aos="fade-up">
-      <div className="max-w-6xl mx-auto my-12 bg-white dark:bg-[#111] rounded-3xl shadow-xl border border-blue-900 overflow-hidden flex flex-col md:flex-row transition-all duration-300">
+      <div className="max-w-6xl mx-auto my-12 bg-[#16161a] rounded-xl shadow-xl border border-blue-900 overflow-hidden flex flex-col md:flex-row transition-all duration-300">
         {/* Image Section */}
-        <div className="md:w-1/2 w-full h-64 md:h-auto">
+        <div className="md:w-1/2 w-full h-64 md:h-auto p-4 border-r border-blue-900">
           <img
             src={R1}
             alt="RateWise Screenshot"
