@@ -96,7 +96,7 @@ const WedlynPage = () => {
       <IoIosLink /> Live Preview
     </a>
     <a
-      href="https://github.com/Rafi-Shariar"
+      href="https://github.com/Rafi-Shariar/Wedlyn-Client-Side"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center gap-2 text-sm font-medium text-gray-400 border border-gray-600 rounded-full px-4 py-2 hover:bg-gray-800 hover:text-white transition"
@@ -104,7 +104,7 @@ const WedlynPage = () => {
       <FaGithub /> Client Code
     </a>
     <a
-      href="https://github.com/Rafi-Shariar"
+      href="https://github.com/Rafi-Shariar/Wedlyn-Server-Side"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center gap-2 text-sm font-medium text-gray-400 border border-gray-600 rounded-full px-4 py-2 hover:bg-gray-800 hover:text-white transition"
