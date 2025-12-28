@@ -98,7 +98,7 @@ const PlantKeeperPage = () => {
           {/* Links */}
           <div className="flex flex-wrap items-center gap-4 mt-10">
             <a
-              href="https://a11-ratewise.web.app/"
+              href="https://ph-a10-60ab6.web.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-blue-600 border border-blue-500 rounded-full px-4 py-2 hover:bg-blue-600 hover:text-white transition"

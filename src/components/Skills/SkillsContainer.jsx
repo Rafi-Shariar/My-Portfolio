@@ -4,7 +4,7 @@ import point from "../../assets/Skills/git-commit-vertical.png";
 const skillsData = [
   {
     title: "Frontend",
-    items: ["HTML", "CSS", "Tailwind CSS", "React", "JavaScript"],
+    items: ["HTML", "CSS", "Tailwind CSS", "React.js", "JavaScript",],
   },
   {
     title: "Backend",
