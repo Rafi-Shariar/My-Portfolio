@@ -56,7 +56,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="https://drive.google.com/file/d/1owwO2wjGFh09PZDYBGu0se52eDlVt9cJ/view" target="_blank">
+          <a href="https://drive.google.com/file/d/1owwO2wjGFh09PZDYBGu0se52eDlVt9cJ/view?usp=sharing" target="_blank">
             <Button
             borderRadius="1.75rem"
             className="text-slate-100 text-base font-semibold border-slate-700 hover:cursor-pointer"
