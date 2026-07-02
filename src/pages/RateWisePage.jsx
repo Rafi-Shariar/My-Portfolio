@@ -21,7 +21,7 @@ const RateWisePage = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 px-4 py-16">
         {/* Left Column: Content */}
         <div className="md:w-3/5 space-y-8">
-          <h1 className="text-5xl font-semibold">RateWise</h1>
+          <h1 className="text-5xl font-semibold text-sky-800">RateWise</h1>
           <p className="text-lg text-slate-300">Service Review Platform</p>
 
           <p>
@@ -35,13 +35,13 @@ const RateWisePage = () => {
           <div>
             <h2 className="text-3xl font-semibold text-gray-400 mt-10">Technologies Used</h2>
             <p className="text-lg mt-3">
-              <span className="font-semibold text-sky-400">Frontend:</span> React, Tailwind CSS, DaisyUI, Framer Motion, React Router, Lottie, Icons, CountUp, Slick Carousel, Fast Marquee
+              <span className="font-semibold text-sky-700">Frontend:</span> React, Tailwind CSS, DaisyUI, Framer Motion, React Router, Lottie, Icons, CountUp, Slick Carousel, Fast Marquee
             </p>
             <p className="text-lg mt-3">
-              <span className="font-semibold text-sky-400">Backend & Auth:</span> Firebase Authentication, MongoDB Database & Firebase Hosting
+              <span className="font-semibold text-sky-700">Backend & Auth:</span> Firebase Authentication, MongoDB Database & Firebase Hosting
             </p>
             <p className="text-lg mt-3">
-              <span className="font-semibold text-sky-400">Utilities:</span> Axios, Date-fns, React Toastify, SweetAlert2
+              <span className="font-semibold text-sky-700">Utilities:</span> Axios, Date-fns, React Toastify, SweetAlert2
             </p>
           </div>
 
@@ -95,14 +95,14 @@ const RateWisePage = () => {
             >
               <FaGithub /> Client Code
             </a>
-            <a
+            {/* <a
               href="https://github.com/Rafi-Shariar/RateWise-Server-Side"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-gray-400 border border-gray-600 rounded-full px-4 py-2 hover:bg-gray-800 hover:text-white transition"
             >
               <FaGithub /> Server Code
-            </a>
+            </a> */}
             <NavLink to={'/'}>
               <button className="btn btn-outline btn-sm">Back to Home</button>
             </NavLink>
