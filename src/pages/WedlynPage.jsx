@@ -24,7 +24,7 @@ const WedlynPage = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 px-4 py-16">
         {/* Left Column: Content */}
         <div className="md:w-3/5 space-y-8">
-  <h1 className="text-5xl font-semibold">Wedlyn</h1>
+  <h1 className="text-5xl font-semibold text-purple-900">Wedlyn</h1>
   <p className="text-lg text-slate-300">Modern Matrimonial Platform</p>
 
   <p>
@@ -38,16 +38,16 @@ const WedlynPage = () => {
   <div>
     <h2 className="text-3xl font-semibold text-gray-400 mt-10">Technologies Used</h2>
     <p className="text-lg mt-3">
-      <span className="font-semibold text-sky-400">Frontend:</span> React 19, Vite, Tailwind CSS, Flowbite, Framer Motion, AOS, Lottie, React Icons
+      <span className="font-semibold text-purple-900">Frontend:</span> React 19, Vite, Tailwind CSS, Flowbite, Framer Motion, AOS, Lottie
     </p>
     <p className="text-lg mt-3">
-      <span className="font-semibold text-sky-400">State & Data:</span> React Query (TanStack), Axios
+      <span className="font-semibold text-purple-900">State & Data:</span> React Query (TanStack), Axios
     </p>
     <p className="text-lg mt-3">
-      <span className="font-semibold text-sky-400">Backend & Auth:</span> Firebase Auth, Firebase Firestore, JWT (JSON Web Token)
+      <span className="font-semibold text-purple-900">Backend & Auth:</span> Firebase Auth, MongoDB, JWT 
     </p>
     <p className="text-lg mt-3">
-      <span className="font-semibold text-sky-400">Utilities:</span> Recharts, SweetAlert2, React Hot Toast
+      <span className="font-semibold text-purple-900">Utilities:</span> Recharts, SweetAlert2, React Hot Toast
     </p>
   </div>
 
@@ -55,12 +55,12 @@ const WedlynPage = () => {
   <div className="bg-[#16161a] p-8 mt-10 rounded-3xl">
     <h2 className="text-3xl font-semibold text-gray-400 mb-4">Key Features</h2>
     <ul className="list-disc list-inside text-lg space-y-2">
-      <li>Explore Biodatas - Browse a variety of user profiles to find compatible matches.</li>
-      <li>Favorites - Save preferred biodatas to your favorites list for future access.</li>
-      <li>Premium Contact Requests - Non-premium users can pay $5 via Stripe to unlock contact details.</li>
-      <li>Success Stories - Read and share real success stories from happy couples.</li>
-      <li>User Dashboard - Manage biodata, request premium status, and track contact requests.</li>
-      <li>Admin Dashboard - Approve premium requests, manage contact approvals, and monitor platform statistics.</li>
+      <li><span className="font-semibold text-purple-900">Explore Biodatas</span> - Browse a variety of user profiles to find compatible matches.</li>
+      <li><span className="font-semibold text-purple-900">Favorites </span> - Save preferred biodatas to your favorites list for future access.</li>
+      <li><span className="font-semibold text-purple-900">Premium Contact Requests </span> - Non-premium users can pay $5 via Stripe to unlock contact details.</li>
+      <li><span className="font-semibold text-purple-900">Success Stories </span> - Read and share real success stories from happy couples.</li>
+      <li><span className="font-semibold text-purple-900">User Dashboard </span> - Manage biodata, request premium status, and track contact requests.</li>
+      <li><span className="font-semibold text-purple-900">Admin Dashboard - </span> Approve premium requests, manage contact approvals, and monitor platform statistics.</li>
     </ul>
   </div>
 
@@ -103,14 +103,14 @@ const WedlynPage = () => {
     >
       <FaGithub /> Client Code
     </a>
-    <a
+    {/* <a
       href="https://github.com/Rafi-Shariar/Wedlyn-Server-Side"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center gap-2 text-sm font-medium text-gray-400 border border-gray-600 rounded-full px-4 py-2 hover:bg-gray-800 hover:text-white transition"
     >
       <FaGithub /> Server Code
-    </a>
+    </a> */}
     <NavLink to={'/'}>
       <button className="btn btn-outline btn-sm">Back to Home</button>
     </NavLink>
