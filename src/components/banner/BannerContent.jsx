@@ -2,7 +2,8 @@ import React from "react";
 import { cn } from "../../lib/utils";
 import { Spotlight } from "../ui/Spotlight";
 import ShinyText from "../ui/ShinyText";
-import logo from "../../assets/myPhoto/me.jpg";
+import logo5 from "../../assets/myPhoto/me5.png";
+
 import facebook from '../../assets/socialIcons/facebook.png';
 import linkedIN from '../../assets/socialIcons/linkedin.png';
 import github from '../../assets/socialIcons/github.png';
@@ -53,7 +54,7 @@ const BannerContent = () => {
         {/* Right Image */}
         <div className="w-40 h-40 md:w-70 md:h-70 rounded-full overflow-hidden border-4 border-white/20 shadow-lg">
           <img
-            src={logo}
+            src={logo5}
             alt="Rafi Shariar"
             className="w-full h-full object-cover object-center "
           />
