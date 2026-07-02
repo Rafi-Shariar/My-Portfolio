@@ -57,13 +57,13 @@ const PlantKeeperCard = () => {
             >
               <FaGithub /> Client
             </Link>
-            <Link
+            {/* <Link
               to="https://github.com/Rafi-Shariar/PlantKeeper-Server-Side"
               target="_blank"
               className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-900 text-white text-sm font-medium rounded-xl transition"
             >
               <FaGithub /> Server
-            </Link>
+            </Link> */}
             <Link
               to="/PlateKeeper"
               className="flex items-center gap-2 px-4 py-2 bg-slate-100 hover:bg-slate-200 text-black text-sm font-medium rounded-xl transition"

@@ -38,7 +38,7 @@ const RateWisePage = () => {
               <span className="font-semibold text-sky-400">Frontend:</span> React, Tailwind CSS, DaisyUI, Framer Motion, React Router, Lottie, Icons, CountUp, Slick Carousel, Fast Marquee
             </p>
             <p className="text-lg mt-3">
-              <span className="font-semibold text-sky-400">Backend & Auth:</span> Firebase Authentication, Firestore Database & Hosting
+              <span className="font-semibold text-sky-400">Backend & Auth:</span> Firebase Authentication, MongoDB Database & Firebase Hosting
             </p>
             <p className="text-lg mt-3">
               <span className="font-semibold text-sky-400">Utilities:</span> Axios, Date-fns, React Toastify, SweetAlert2
@@ -53,7 +53,6 @@ const RateWisePage = () => {
               <li>Dynamic service listing with average user ratings</li>
               <li>Read and write detailed user reviews</li>
               <li>Authenticated users can add their own services and ratings</li>
-              <li>Fully responsive and clean user interface</li>
             </ul>
           </div>
 

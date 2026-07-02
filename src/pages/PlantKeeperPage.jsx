@@ -22,7 +22,7 @@ const PlantKeeperPage = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 px-4 py-16">
         {/* Left Column: Content */}
         <div className="md:w-3/5 space-y-8">
-          <h1 className="text-5xl font-semibold">PlantKeeper</h1>
+          <h1 className="text-5xl font-semibold text-green-700">PlantKeeper</h1>
           <p className="text-lg text-slate-300">Plant Care Platform</p>
 
           <p>
@@ -42,16 +42,16 @@ const PlantKeeperPage = () => {
           <div>
             <h2 className="text-3xl font-semibold text-gray-400 mt-10">Technologies Used</h2>
             <p className="text-lg mt-3">
-              <span className="font-semibold text-sky-400">Frontend:</span> React,
+              <span className="font-semibold text-green-700">Frontend:</span> React,
                 Tailwind CSS, DaisyUI, React Router, React Icons, React Slick,
-                React Lottie, React Tooltip
+                React Lottie
             </p>
             <p className="text-lg mt-3">
-              <span className="font-semibold text-sky-400">Backend & Auth:</span> Firebase
-                Authentication, Firestore Database, Firebase Hosting
+              <span className="font-semibold text-green-700">Backend & Auth:</span> Firebase
+                Authentication, MongoDB Database, Firebase Hosting
             </p>
             <p className="text-lg mt-3">
-              <span className="font-semibold text-sky-400">Utilities:</span> SweetAlert2,
+              <span className="font-semibold text-green-700">Utilities:</span> SweetAlert2,
                  Slick Carousel, Tailwind + Vite
                 integration
             </p>
@@ -61,16 +61,16 @@ const PlantKeeperPage = () => {
           <div className="bg-[#16161a] p-8 mt-10 rounded-3xl">
             <h2 className="text-3xl font-semibold text-gray-400 mb-4">Key Features</h2>
             <ul className="list-disc list-inside text-lg space-y-2">
-              <li>Explore New Plants - Browse plant entries shared by other
+              <li><span className="font-semibold text-green-700">Explore New Plants</span> - Browse plant entries shared by other
                 users and learn proper care methods.</li>
-              <li>Track Your Plant Routine - Stay on top of watering schedules,
+              <li><span className="font-semibold text-green-700">Track Your Plant Routine </span> - Stay on top of watering schedules,
                 sunlight needs, and other tasks.</li>
-              <li>Full CRUD Functionality - Add, update, or delete plants from
+              <li><span className="font-semibold text-green-700">Full CRUD Functionality </span>- Add, update, or delete plants from
                 your personal collection.</li>
-              <li>Dark Mode Support - A sleek and accessible dark mode for
+              <li><span className="font-semibold text-green-700">Filter & Sort Functionality </span>- Filter Plants based on interest, sort them as your preference</li>
+              <li><span className="font-semibold text-green-700">Dark Mode Support </span> - A sleek and accessible dark mode for
                 enhanced comfort at night.</li>
-              <li>User Authentication - Firebase-powered sign-up and login to
-                keep your plant data safe.</li>
+           
             </ul>
           </div>
 
@@ -81,7 +81,6 @@ const PlantKeeperPage = () => {
               <li>Building a smooth, responsive UI with dynamic plant data</li>
               <li>Managing state efficiently for CRUD operations</li>
               <li>Implementing dark mode with seamless theme toggling</li>
-              <li>Maintaining responsiveness and smooth animations on all devices</li>
             </ul>
           </div>
 
@@ -113,14 +112,14 @@ const PlantKeeperPage = () => {
             >
               <FaGithub /> Client Code
             </a>
-            <a
+            {/* <a
               href="https://github.com/Rafi-Shariar/RateWise-Server-Side"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-gray-400 border border-gray-600 rounded-full px-4 py-2 hover:bg-gray-800 hover:text-white transition"
             >
               <FaGithub /> Server Code
-            </a>
+            </a> */}
             <NavLink to={'/'}>
               <button className="btn btn-outline btn-sm">Back to Home</button>
             </NavLink>
