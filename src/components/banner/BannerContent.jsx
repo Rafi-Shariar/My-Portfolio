@@ -39,7 +39,7 @@ const BannerContent = () => {
           </h1>
 
           <h2 className="text-lg md:text-xl mt-2">
-            MERN STACK WEB DEVELOPER
+            FULL STACK WEB DEVELOPER
           </h2>
 
           <div className="mt-3 -ml-2 flex ">
