@@ -16,7 +16,7 @@ const skillsData = [
   },
   {
     title: "Tools",
-    items: ["Git", "Axios", "Vercel"],
+    items: ["Git", "Axios", "Vercel", "Prisma"],
   },
   {
     title: "Others",
