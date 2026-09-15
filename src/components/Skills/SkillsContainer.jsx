@@ -16,7 +16,7 @@ const skillsData = [
   },
   {
     title: "Tools",
-    items: ["Git", "Axios", "Vercel", "Prisma"],
+    items: ["Git", "Axios", "Prisma", "Zod", "Zustand", "TanStact Query"],
   },
   {
     title: "Others",

@@ -1,0 +1,100 @@
+import React from "react";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { IoIosLink } from "react-icons/io";
+import ShareGearThumb from "../../assets/Projects/ShareGear/Banner.png";
+import { Link } from "react-router";
+
+const ShareGearCard = () => {
+  const techStack = [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Zustand",
+    "TanStack Query",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma ORM",
+    "Stripe",
+  ];
+
+  return (
+    <div data-aos="fade-up">
+      <div className="max-w-6xl mx-auto my-12 bg-[#16161a] dark:bg-[#111] rounded-xl shadow-xl border border-blue-900 overflow-hidden flex flex-col md:flex-row transition-all duration-300">
+        {/* Image Section */}
+        <div className="md:w-1/2 w-full h-72 md:h-auto p-4 border-b md:border-b-0 md:border-r border-blue-900 flex items-center justify-center">
+          <img
+            src={ShareGearThumb}
+            alt="ShareGear Platform Preview"
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </div>
+
+        {/* Content Section */}
+        <div className="md:w-1/2 w-full p-6 md:p-10 space-y-4 flex flex-col justify-center">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight">
+              ShareGear
+            </h2>
+            <p className="text-xs md:text-sm uppercase tracking-wider text-indigo-400 font-medium mt-1">
+              Peer-to-Peer Gear Rental Platform
+            </p>
+          </div>
+
+          <p className="text-slate-400 text-sm md:text-base leading-relaxed">
+            A peer-to-peer gear rental platform connecting equipment owners with
+            renters for short-term indoor and outdoor equipment leasing.
+          </p>
+
+        
+
+          {/* Tech Stack Tags */}
+          <div className="flex flex-wrap gap-2 pt-2">
+            {techStack.map((tech) => (
+              <span
+                key={tech}
+                className="bg-indigo-950/70 border border-indigo-700/50 text-indigo-200 px-3 py-1 text-xs rounded-full font-medium"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+
+          {/* Action Links */}
+          <div className="flex flex-wrap gap-3 pt-4">
+            <Link
+              to="https://share-gear.vercel.app/"
+              target="_blank"
+              className="flex items-center gap-2 px-4 py-2 bg-blue-900 hover:bg-blue-800 text-white text-sm font-medium rounded-xl transition-colors"
+            >
+              <IoIosLink className="text-lg" /> Live Preview
+            </Link>
+            <Link
+              to="https://github.com/Rafi-Shariar/A5-RentGear"
+              target="_blank"
+      
+              className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-xl transition-colors"
+            >
+              <FaGithub /> Client
+            </Link>
+            {/* <Link
+              href="https://github.com/your-username/sharegear-server"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white text-sm font-medium rounded-xl transition-colors"
+            >
+              <FaGithub /> Server
+            </Link> */}
+            <Link
+              to="/ShareGear"
+              className="flex items-center gap-2 px-4 py-2 bg-slate-100 hover:bg-slate-200 text-black text-sm font-medium rounded-xl transition-colors"
+            >
+              <FaExternalLinkAlt className="text-xs" /> Details
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ShareGearCard;
